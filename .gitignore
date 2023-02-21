@@ -1,4 +1,8 @@
 venv
 .idea
 .snakemake
-Werkcollege2/data
+data
+calls
+mapped_reads
+sorted_reads
+logs

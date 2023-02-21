@@ -60,8 +60,6 @@ rule report:
         call="calls/all.vcf"
     output:
         html="output.html"
-    log:
-        "logs/report.log"
     run:
         from snakemake.utils import report
         with open(input.call) as f:
